@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block advertisement %}
+
+<div class="card div-local-position" style="width: 25rem;">
+  <img src="{{ advertisement.img.url }}" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">{{ advertisement.title }}</h5>
+      <p class="card-text">{{ advertisement.about }}</p>
+  </div>
+</div>
+
+
+{% endblock %}

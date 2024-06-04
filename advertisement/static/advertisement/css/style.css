@@ -1,0 +1,22 @@
+.nav-header {
+    margin-bottom: 50px;
+}
+
+.div-position {
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.div-position:last-child {
+    margin-right: 0;
+}
+
+.advertisement{
+    display: flex;
+    justify-content: center;
+}
+
+.advertisements{
+    text-align: center;
+}
